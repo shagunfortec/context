@@ -1,0 +1,17 @@
+import React from 'react';
+import './App.css';
+import { useTheme } from './component/ThemeContext';
+function App() {
+  const{theme,toggleTheme} =useTheme();
+
+  return (
+   <div className={`App ${theme}`}>
+      <header className={`App-header ${theme}`}>
+        <p>The current theme is <strong> {theme}</strong>.</p>
+        <button onClick={toggleTheme}> Change Theme</button>
+      </header>
+    </div>
+  );
+}
+
+export default App;
