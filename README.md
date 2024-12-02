@@ -1,1 +1,1 @@
-This code is Light And Dark Theme .
+This code is for Light And Dark Theme .
